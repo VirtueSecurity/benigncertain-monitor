@@ -24,5 +24,5 @@ Starting monitor against 10.0.6.1
 ```
 
 # Overview
-This dockerized python script is a wrapper for the NSA BENIGNCERTAIN Cisco exploit. This script polls the vulnerable service over time to identify probable passwords and identify other potential sensitive information. Since this vulnerability typically only reveals a point in time status, we built this as a service to show potential impact given a broader period of time.
+This dockerized python script is a wrapper for the NSA BENIGNCERTAIN Cisco exploit. This script polls the vulnerable service over time to identify probable passwords and other potentially sensitive information. Since the NSA exploit previously only revealed a point in time status, we built this as a service to show impact over broader period of time.
 
