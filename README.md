@@ -26,3 +26,7 @@ Starting monitor against 10.0.6.1
 # Overview
 This dockerized python script is a wrapper for the NSA BENIGNCERTAIN Cisco exploit. This script polls the vulnerable service over time to identify probable passwords and other potentially sensitive information. Since the NSA exploit previously only revealed a point in time status, we built this as a service to show impact over broader period of time.
 
+# Credit
+
+This service is an opensource component of our service-backed pentesting platform [PurpleLeaf](https://purpleleaf.io)
+
